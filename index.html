@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Yannick Nobbe Portfolio</title>
+  <link rel="icon" type="image/x-icon" href="assets/android-chrome-512x512.png">
+  <link rel="stylesheet" href="css/reset.css" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
+    rel="stylesheet" />
+  <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="logo">
+        <h1>portfolio</h1>
+      </div>
+      <div class="light-dark-toggle">
+        <span class="light-btn">lights off</span>
+      </div>
+      <ul>
+        <li><a href="#Projects">Projects</a></li>
+        <li><a href="#About">About</a></li>
+        <li><a href="#Contact">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="intro">
+      <div class="intro-text">
+        <h2>
+          Hoi, ik ben <span class="auto-type"></span><br />
+          wat leuk dat je een kijkje neemt naar mijn werk.
+        </h2>
+        <h3>Tweedejaars student Communicatie & Multimedia Design</h3>
+      </div>
+      <div class="intro-img">
+        <img src="assets/headshot.jpg" alt="My beautiful face" />
+        <div class="intro-img-easteregg">Wat zit je met je muis op mijn gezicht??!!?!</div>
+      </div>
+    </div>
+  </header>
+  <main>
+    <div id="Projects" class="project-cont">
+      <div class="medium">
+        <h4>Fotografie</h4>
+        <p>
+          Al jaren ben ik hobbyfotograaf. Ik heb een aantal van mijn favoriete
+          foto's verzameld om te laten zien en tentoon te stellen op deze
+          website.
+        </p>
+        <span class="modal-trigger" data-modal-id="modal1">bekijk werk</span>
+      </div>
+      <div class="small-1">
+        <h4>Developement</h4>
+        <p>
+          Een paar voorbeelden van de websites die ik in dit jaar heb mogen
+          programmeren.
+        </p>
+        <span class="modal-trigger" data-modal-id="modal2">bekijk werk</span>
+      </div>
+      <div class="small-2">
+        <h4>Videografie</h4>
+        <p>
+          Ik heb een aantal video's gemaakt voor school en voor mezelf. Hier
+          zijn een paar van mijn favorieten.
+        </p>
+        <span class="modal-trigger" data-modal-id="modal3">bekijk werk</span>
+      </div>
+
+      <div class="large">
+        <h4>Designs</h4>
+        <p>
+          Het designen is misschien wel mijn favoriete onderdeel in deze
+          opleiding. Kijk eens naar mijn super vette designs van dit jaar.
+        </p>
+        <span class="modal-trigger" data-modal-id="modal4">bekijk werk</span>
+      </div>
+    </div>
+    <div id="About" class="about-me-cont">
+      <div class="about-me-text">
+        <h4>En dan iets meer over mijzelf</h4>
+        <p>
+          Ik ben Yannick Nobbe, ik ben 21 jaar oud en ben eerstejaars student
+          aan de opleiding Communicatie & Multimedia Design. Mijn grootste
+          passie in het leven is muziek, maar daarnaast vind ik ook heel veel
+          plezier in fotografie en designen. <br />
+          <br />
+          Ik vind mezelf een creatief persoon zodra ik op een idee ben
+          gekomen, maar dat is natuurlijk een van de moeilijkste delen van het
+          vak. Een perfectionist door en door die altijd op zoek is naar
+          manieren om zichzelf te verbeteren.
+        </p>
+      </div>
+      <div class="about-me-skills">
+        <h4>Mijn Skills</h4>
+        <div class="skills">
+          <span>Fotografie</span>
+          <span>Design</span>
+          <span>Video</span>
+          <span>Illustrator</span>
+          <span>Piano</span>
+          <span>HTML</span>
+          <span>CSS</span>
+          <span>JavaScript</span>
+        </div>
+      </div>
+    </div>
+    <div class="avd-video">
+      <h4>Mijn AVD Video's</h4>
+      <div class="video-player">
+        <video class="current-video" src="https://player.vimeo.com/progressive_redirect/playback/838984157/rendition/720p/file.mp4?loc=external&signature=aee192fd91f813202d0c193e970f9cb034d9b2b90eb1037d1541bce45073516a"></video>
+        <div class="playpause-btn">
+          <img src="assets/play.svg" alt="play/pause" />
+        </div>
+        <div class="ffw-btn">
+          <img src="assets/ffw.svg" alt="fast forward" />
+        </div>
+      </div>
+      <div class="video-selector">
+        <span class="video-1">codeventure</span>
+        <span class="video-2">Paino piece</span>
+        <span class="video-3">'t bier is op</span>
+        <span class="video-4">eenzaamheid</span>
+        <span class="video-5">mr timer 2 minute</span>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <div id="Contact" class="contact-cont">
+      <div class="contact-text">
+        <h4>Contact</h4>
+        <p>
+          Heb je vragen of wil je gewoon een praatje maken? Stuur me dan een
+          berichtje via een van de onderstaande kanalen, of via dit hele coole text boxje.
+        </p>
+      </div>
+      <div class="message-me">
+        <form action="">
+          <input class="name" type="text" placeholder="Naam" />
+          <input class="email" type="text" placeholder="Email" />
+          <textarea class="message" placeholder="Typ hier maar iets leuks" name="" id="" cols="30" rows="10"></textarea>
+          <input class="send-btn" type="submit" value="Verstuur" />
+      </div>
+    </div>
+<div class="book-me-cont">
+  <div class="book-me">
+  <div class="book-date">
+    <span>Date:</span>
+    <input type="date">
+  </div>
+  <div class="book-time">
+    <span>Time:</span>
+    <input type="time">
+  </div>
+  <div class="book-btn">
+    <span class="modal-trigger" data-modal-id="book-modal">Book me</span>
+</div>
+</div>
+
+  </footer>
+
+  <div id="modal1" class="modal">
+    <div class="modal-content">
+      <h2>Lekker foto's maken</h2>
+      <p>Zoals je eerder a las vind ik fotootjes maken best leuk. Plaatjes maken van vanalles en nogwat. Van landshappen tot foto's van stickerbombs, ik maak ze allemaal.</p>
+      <div class="modal-img-cont">
+        <img src="assets/IMG_3024.JPG" alt="">
+        <img src="assets/IMG_3086.JPG" alt="">
+        <img src="assets/IMG_3133.JPG" alt="">
+        <img src="assets/IMG_3151.JPG" alt="">
+        <img src="assets/IMG_3218.JPG" alt="">
+      </div>
+      <div class="modal-close-btn">
+        <span id="modal-close">Close</span>
+      </div>
+    </div>
+  </div>
+
+  <div id="modal2" class="modal">
+    <div class="modal-content">
+      <h2>Code en nog meer code</h2>
+      <p>Deze website bijvoorbeeld dus ben te lui om meer voorbeelden te vinden</p>
+      <div class="modal-close-btn">
+        <span id="modal-close">Close</span>
+      </div>
+    </div>
+  </div>
+
+  <div id="modal3" class="modal">
+    <div class="modal-content">
+      <h2>Videografie</h2>
+      <p>Je bent gefopt, hiervoor moet je naar onder scrollen naar de avd video's.</p>
+<div class="modal-img-cont">
+        <img src="assets/depositphotos_139840912-stock-illustration-laughing-with-tears-and-pointing.jpg" alt="">
+
+</div>
+      <div class="modal-close-btn">
+        <span id="modal-close">Close</span>
+      </div>
+    </div>
+  </div>
+
+  <div id="modal4" class="modal">
+    <div class="modal-content">
+      <h2>Ja spreekt voor zich hoop ik</h2>
+
+<div class="modal-img-cont">
+  <img src="assets/Screenshot_1.png" alt="">
+  <img src="assets/Screenshot_2.png" alt="">
+</div> 
+<p>En dan die van in het begin</p>
+  <div class="modal-img-cont">
+  <img src="assets/Screenshot_3.png" alt="">
+  <img src="assets/Screenshot_4.png" alt="">
+</div>
+      <div class="modal-close-btn">
+        <span id="modal-close">Close</span>
+      </div>
+    </div>
+  </div>
+
+  <div id="book-modal" class="modal">
+    <div class="modal-content">
+      <h2>Your booking was succes</h2>
+      <p>Cant wait to see you</p>
+      <p>Your booking has been made for 
+        <br>
+        <span class="chosen-date"></span> 
+        <span class="chosen-time"></span> 
+      </p>
+      <div class="modal-close-btn">
+        <span id="modal-close">Close</span>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
