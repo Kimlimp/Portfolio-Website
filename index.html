@@ -23,7 +23,7 @@
         <h1>portfolio</h1>
       </div>
       <div class="light-dark-toggle">
-        <span class="light-btn">lights off</span>
+        <span class="light-btn" role="button" tabindex="0">lights off</span>
       </div>
       <ul>
         <li><a href="#Projects">Projects</a></li>
@@ -54,7 +54,7 @@
           foto's verzameld om te laten zien en tentoon te stellen op deze
           website.
         </p>
-        <span class="modal-trigger" data-modal-id="modal1">bekijk werk</span>
+        <span class="modal-trigger" data-modal-id="modal1" role="button" tabindex="0">bekijk werk</span>
       </div>
       <div class="small-1">
         <h4>Developement</h4>
@@ -62,7 +62,7 @@
           Een paar voorbeelden van de websites die ik in dit jaar heb mogen
           programmeren.
         </p>
-        <span class="modal-trigger" data-modal-id="modal2">bekijk werk</span>
+        <span class="modal-trigger" data-modal-id="modal2" role="button" tabindex="0">bekijk werk</span>
       </div>
       <div class="small-2">
         <h4>Videografie</h4>
@@ -70,7 +70,7 @@
           Ik heb een aantal video's gemaakt voor school en voor mezelf. Hier
           zijn een paar van mijn favorieten.
         </p>
-        <span class="modal-trigger" data-modal-id="modal3">bekijk werk</span>
+        <span class="modal-trigger" data-modal-id="modal3" role="button" tabindex="0">bekijk werk</span>
       </div>
 
       <div class="large">
@@ -79,7 +79,7 @@
           Het designen is misschien wel mijn favoriete onderdeel in deze
           opleiding. Kijk eens naar mijn super vette designs van dit jaar.
         </p>
-        <span class="modal-trigger" data-modal-id="modal4">bekijk werk</span>
+        <span class="modal-trigger" data-modal-id="modal4" role="button" tabindex="0">bekijk werk</span>
       </div>
     </div>
     <div id="About" class="about-me-cont">
@@ -115,19 +115,19 @@
       <h4>Mijn AVD Video's</h4>
       <div class="video-player">
         <video class="current-video" src="https://player.vimeo.com/progressive_redirect/playback/838984157/rendition/720p/file.mp4?loc=external&signature=aee192fd91f813202d0c193e970f9cb034d9b2b90eb1037d1541bce45073516a"></video>
-        <div class="playpause-btn">
+        <div class="playpause-btn" role="button" tabindex="0" aria-label="Play or Pause video">
           <img src="assets/play.svg" alt="play/pause" />
         </div>
-        <div class="ffw-btn">
+        <div class="ffw-btn" role="button" tabindex="0" aria-label="Fast forward 10 seconds">
           <img src="assets/ffw.svg" alt="fast forward" />
         </div>
       </div>
       <div class="video-selector">
-        <span class="video-1">codeventure</span>
-        <span class="video-2">Paino piece</span>
-        <span class="video-3">'t bier is op</span>
-        <span class="video-4">eenzaamheid</span>
-        <span class="video-5">mr timer 2 minute</span>
+        <span class="video-1" role="button" tabindex="0">codeventure</span>
+        <span class="video-2" role="button" tabindex="0">Paino piece</span>
+        <span class="video-3" role="button" tabindex="0">'t bier is op</span>
+        <span class="video-4" role="button" tabindex="0">eenzaamheid</span>
+        <span class="video-5" role="button" tabindex="0">mr timer 2 minute</span>
       </div>
     </div>
   </main>
@@ -142,9 +142,9 @@
       </div>
       <div class="message-me">
         <form action="">
-          <input class="name" type="text" placeholder="Naam" />
-          <input class="email" type="text" placeholder="Email" />
-          <textarea class="message" placeholder="Typ hier maar iets leuks" name="" id="" cols="30" rows="10"></textarea>
+          <input class="name" type="text" placeholder="Naam" aria-label="Naam" />
+          <input class="email" type="text" placeholder="Email" aria-label="Email" />
+          <textarea class="message" placeholder="Typ hier maar iets leuks" name="" id="" cols="30" rows="10" aria-label="Bericht"></textarea>
           <input class="send-btn" type="submit" value="Verstuur" />
       </div>
     </div>
@@ -152,14 +152,14 @@
   <div class="book-me">
   <div class="book-date">
     <span>Date:</span>
-    <input type="date">
+    <input type="date" aria-label="Datum">
   </div>
   <div class="book-time">
     <span>Time:</span>
-    <input type="time">
+    <input type="time" aria-label="Tijd">
   </div>
   <div class="book-btn">
-    <span class="modal-trigger" data-modal-id="book-modal">Book me</span>
+    <span class="modal-trigger" data-modal-id="book-modal" role="button" tabindex="0">Book me</span>
 </div>
 </div>
 
@@ -177,7 +177,7 @@
         <img src="assets/IMG_3218.JPG" alt="">
       </div>
       <div class="modal-close-btn">
-        <span id="modal-close">Close</span>
+        <span id="modal-close" role="button" tabindex="0">Close</span>
       </div>
     </div>
   </div>
@@ -187,7 +187,7 @@
       <h2>Code en nog meer code</h2>
       <p>Deze website bijvoorbeeld dus ben te lui om meer voorbeelden te vinden</p>
       <div class="modal-close-btn">
-        <span id="modal-close">Close</span>
+        <span id="modal-close" role="button" tabindex="0">Close</span>
       </div>
     </div>
   </div>
@@ -201,7 +201,7 @@
 
 </div>
       <div class="modal-close-btn">
-        <span id="modal-close">Close</span>
+        <span id="modal-close" role="button" tabindex="0">Close</span>
       </div>
     </div>
   </div>
@@ -220,7 +220,7 @@
   <img src="assets/Screenshot_4.png" alt="">
 </div>
       <div class="modal-close-btn">
-        <span id="modal-close">Close</span>
+        <span id="modal-close" role="button" tabindex="0">Close</span>
       </div>
     </div>
   </div>
@@ -235,11 +235,12 @@
         <span class="chosen-time"></span> 
       </p>
       <div class="modal-close-btn">
-        <span id="modal-close">Close</span>
+        <span id="modal-close" role="button" tabindex="0">Close</span>
       </div>
     </div>
   </div>
 
+  <script src="js/accessibility.js"></script>
   <script src="js/script.js"></script>
 </body>
 </html>
