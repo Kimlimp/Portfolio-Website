@@ -1,0 +1,3 @@
+## 2024-05-23 - Keyboard Accessibility for Custom Buttons
+**Learning:** The project relies heavily on `div` and `span` elements for interactive buttons (like modals, video controls, theme toggles) without any native keyboard support. This makes the site inaccessible to keyboard-only users.
+**Action:** Always check if an element acting as a button uses `<button>` or `<a>`. If not, and refactoring is too risky/out of scope, immediately add `role="button"`, `tabindex="0"`, and a script to handle `Enter` and `Space` keypresses to trigger the click event. Ensure visual focus indicators are present.

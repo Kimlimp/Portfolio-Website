@@ -60,6 +60,10 @@ nav span:hover {
   letter-spacing: 0.2rem;
   cursor: pointer;
 }
+[role="button"]:focus-visible {
+  outline: 3px solid blueviolet;
+  outline-offset: 2px;
+}
 nav ul {
   gap: 2rem;
   list-style: none;
