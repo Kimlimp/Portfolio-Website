@@ -1000,3 +1000,9 @@ h2 span {
     letter-spacing: 0rem;
   }
 }
+
+/* Keyboard accessibility focus styles */
+:focus-visible {
+  outline: 2px solid blueviolet;
+  outline-offset: 2px;
+}
