@@ -1000,3 +1000,9 @@ h2 span {
     letter-spacing: 0rem;
   }
 }
+
+/* Accessibility focus style */
+[role="button"]:focus-visible {
+  outline: 3px solid blueviolet;
+  outline-offset: 2px;
+}
