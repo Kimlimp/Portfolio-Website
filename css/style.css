@@ -654,7 +654,8 @@ h2 span {
   top: 50px;
   right: 50px;
 }
-#modal-close {
+/* Replaced ID with class for accessibility */
+.modal-close-text {
   color: #000;
   font-size: 1.5rem;
   font-weight: 800;
@@ -999,4 +1000,10 @@ h2 span {
     min-width: 0px;
     letter-spacing: 0rem;
   }
+}
+
+/* Accessibility Focus Indicator */
+:focus-visible {
+  outline: 2px solid blueviolet;
+  outline-offset: 2px;
 }
