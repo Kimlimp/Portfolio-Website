@@ -1007,3 +1007,7 @@ h2 span {
   outline: 2px solid blueviolet;
   outline-offset: 2px;
 }
+
+.book-me label {
+  cursor: pointer;
+}
