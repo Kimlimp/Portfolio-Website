@@ -143,7 +143,7 @@
       <div class="message-me">
         <form action="">
           <input class="name" type="text" placeholder="Naam" aria-label="Naam" />
-          <input class="email" type="text" placeholder="Email" aria-label="Email" />
+          <input class="email" type="email" placeholder="Email" aria-label="Email" />
           <textarea class="message" placeholder="Typ hier maar iets leuks" name="message" id="message" cols="30" rows="10" aria-label="Bericht"></textarea>
           <input class="send-btn" type="submit" value="Verstuur" />
         </form>
@@ -152,12 +152,12 @@
 <div class="book-me-cont">
   <div class="book-me">
   <div class="book-date">
-    <span>Date:</span>
-    <input type="date">
+    <label for="book-date-input">Date:</label>
+    <input type="date" id="book-date-input">
   </div>
   <div class="book-time">
-    <span>Time:</span>
-    <input type="time">
+    <label for="book-time-input">Time:</label>
+    <input type="time" id="book-time-input">
   </div>
   <div class="book-btn">
     <span class="modal-trigger" role="button" tabindex="0" data-modal-id="book-modal">Book me</span>
