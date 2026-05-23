@@ -134,13 +134,15 @@ document.querySelector(".video-5").addEventListener("click", function () {
     "https://player.vimeo.com/progressive_redirect/playback/838986219/rendition/720p/file.mp4?loc=external&signature=5fa63fe205da67c0e82fd7f7f4441c3291f0bd9e81f3296877e7b2879a59ba07";
 });
 
-//give the current active video selector span a class of active
+//give the current active video selector span a class of active and aria-current
 document.querySelectorAll(".video-selector span").forEach(function (span) {
   span.addEventListener("click", function () {
     document.querySelectorAll(".video-selector span").forEach(function (span) {
       span.classList.remove("active");
+      span.removeAttribute("aria-current");
     });
     span.classList.add("active");
+    span.setAttribute("aria-current", "true");
   });
 });
 
