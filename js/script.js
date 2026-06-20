@@ -139,8 +139,10 @@ document.querySelectorAll(".video-selector span").forEach(function (span) {
   span.addEventListener("click", function () {
     document.querySelectorAll(".video-selector span").forEach(function (span) {
       span.classList.remove("active");
+      span.removeAttribute("aria-current");
     });
     span.classList.add("active");
+    span.setAttribute("aria-current", "true");
   });
 });
 
