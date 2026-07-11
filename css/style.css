@@ -990,7 +990,8 @@ h2 span {
   .book-me-cont {
     width: 90vw;
   }
-  .book-me-cont span {
+  .book-me-cont span,
+  .book-me-cont label {
     font-size: 1rem;
     padding: 3px 10px;
   }
