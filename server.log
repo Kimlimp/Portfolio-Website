@@ -1,0 +1,21 @@
+127.0.0.1 - - [01/Aug/2026 14:41:22] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [01/Aug/2026 14:41:22] "GET /css/reset.css HTTP/1.1" 200 -
+127.0.0.1 - - [01/Aug/2026 14:41:22] "GET /assets/play.svg HTTP/1.1" 200 -
+127.0.0.1 - - [01/Aug/2026 14:41:22] "GET /assets/headshot.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [01/Aug/2026 14:41:22] "GET /css/style.css HTTP/1.1" 200 -
+127.0.0.1 - - [01/Aug/2026 14:41:22] "GET /assets/ffw.svg HTTP/1.1" 200 -
+127.0.0.1 - - [01/Aug/2026 14:41:22] "GET /assets/IMG_3024.JPG HTTP/1.1" 200 -
+127.0.0.1 - - [01/Aug/2026 14:41:22] "GET /assets/IMG_3086.JPG HTTP/1.1" 200 -
+127.0.0.1 - - [01/Aug/2026 14:41:22] "GET /assets/IMG_3151.JPG HTTP/1.1" 200 -
+127.0.0.1 - - [01/Aug/2026 14:41:22] "GET /js/accessibility.js HTTP/1.1" 200 -
+127.0.0.1 - - [01/Aug/2026 14:41:22] "GET /assets/IMG_3133.JPG HTTP/1.1" 200 -
+127.0.0.1 - - [01/Aug/2026 14:41:22] "GET /js/script.js HTTP/1.1" 200 -
+127.0.0.1 - - [01/Aug/2026 14:41:22] "GET /assets/IMG_3218.JPG HTTP/1.1" 200 -
+127.0.0.1 - - [01/Aug/2026 14:41:22] "GET /assets/depositphotos_139840912-stock-illustration-laughing-with-tears-and-pointing.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [01/Aug/2026 14:41:22] "GET /assets/Screenshot_2.png HTTP/1.1" 200 -
+127.0.0.1 - - [01/Aug/2026 14:41:22] "GET /assets/Screenshot_1.png HTTP/1.1" 200 -
+127.0.0.1 - - [01/Aug/2026 14:41:22] "GET /assets/Screenshot_3.png HTTP/1.1" 200 -
+127.0.0.1 - - [01/Aug/2026 14:41:22] "GET /assets/Screenshot_4.png HTTP/1.1" 200 -
+127.0.0.1 - - [01/Aug/2026 14:41:36] code 404, message File not found
+127.0.0.1 - - [01/Aug/2026 14:41:36] "GET /robots.txt HTTP/1.1" 404 -
+127.0.0.1 - - [01/Aug/2026 14:41:39] "GET /screenshot.png HTTP/1.1" 200 -
